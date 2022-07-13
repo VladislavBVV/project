@@ -1,0 +1,63 @@
+.conteiner {
+    width: 320px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.product-name::after {
+    display: block;
+    justify-content: center;
+    content: "";
+    width: 26px;
+    height: 6px;
+    margin: 32px 127px 32px 127px;
+   
+}
+
+
+.elipse::after {
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./img/Group\ 4.svg);
+   
+}
+
+.products__list {
+    padding: 0;
+    list-style: none;
+}
+
+
+.products__discription {
+  width: 280px;
+  height: 489px;
+  border-radius: 24px;
+
+}
+
+
+.products__discription--icecream {
+background-color: #FFB8CA;
+    
+}
+
+.products__discription--icecoffe {
+background-color: #F0D1A5;
+
+}
+
+.products__discription--milkshake {
+background-color: #C2E297;
+    
+}
+
+.product__icon {
+    margin-left: 120px;
+    border-radius: 50%;
+    outline: 1px solid tomato;
+    background-color: azure;
+}
+
